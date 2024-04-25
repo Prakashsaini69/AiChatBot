@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../utils/size.dart';
 
-Color background = const Color(0xFF000500);
+Color background = Color.fromARGB(255, 5, 25, 30);
 Color userChat = const Color(0xFF1A80E5);
 Color resChat = const Color(0xFF243647);
 Color chatColor = const Color(0xFF47698A);

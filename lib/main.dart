@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../pages/chat_screen.dart';
+import 'package:gemini_chatbot/pages/chat_screen.dart';
+import 'package:gemini_chatbot/splashscreen.dart';
 
 main(){
   runApp(const MyApp());
@@ -11,9 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Gemini',
+      title: 'GPT By Prakash',
       debugShowCheckedModeBanner: false,
-      home: ChatScreen(),
+      home: SplashScreen(),
     );
   }
 }

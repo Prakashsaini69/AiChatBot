@@ -19,7 +19,7 @@ class _ChatScreenState extends State<ChatScreen> {
   TextEditingController _userMessage = TextEditingController();
   bool isLoading = false;
 
-  static const apiKey = "YOUR API KEY";
+  static const apiKey = "AIzaSyCDjKw1Br8-2J1UrHgkVMIfsdJIMr9riY8";
 
   final List<Message> _messages = [];
 
@@ -62,7 +62,7 @@ class _ChatScreenState extends State<ChatScreen> {
       backgroundColor: background,
       appBar: AppBar(
         backgroundColor: background,
-        title: Text('Gemini',style: GoogleFonts.poppins(color: white, fontWeight: FontWeight.bold)),
+        title: Center(child: Text('GPT By Prakash',style: GoogleFonts.poppins(color: white, fontWeight: FontWeight.bold))),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.end,
